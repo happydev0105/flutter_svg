@@ -34,7 +34,9 @@ class Cache {
       }
     }
   }
-
+  
+  /// If the new size is smaller than the current number of elements, the extraneous elements are evicted immediately. Setting this to zero and 
+  /// returning it to its original value will therefore immediately clear the cache.
   /// Evicts all entries from the cache.
   ///
   /// This is useful if, for instance, the root asset bundle has been updated
