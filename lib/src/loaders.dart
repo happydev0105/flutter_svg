@@ -29,6 +29,8 @@ abstract class SvgLoader<T> extends BytesLoader {
   /// Will be called in [compute] with the result of [prepareMessage].
   @protected
   String provideSvg(T? message);
+  
+  /// Will be called in [compute] with the result of [prepareMessage].
 
   /// Will be called
   @protected
