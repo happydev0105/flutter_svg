@@ -73,6 +73,7 @@ class SvgPicture extends StatelessWidget {
   /// screen reading software.
   ///
   /// If [excludeFromSemantics] is true, then [semanticsLabel] will be ignored.
+  /// If [excludeFromSemantics] is true, then [semanticsLabel] will be ignored.
   const SvgPicture(
     this.bytesLoader, {
     Key? key,
