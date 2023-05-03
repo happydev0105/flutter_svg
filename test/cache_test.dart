@@ -78,3 +78,12 @@ void main() {
     expect(cache.evict(3), true);
   });
 }
+
+// **DEPRECATIONS**
+
+// - The `VectorDrawable` classes have gone away.
+// - The `AvdPicture` and related classes/parser have gone away.
+// - The `PictureCache` and `PictureStream` classes have gone away.
+// - The `PicturePovider` class exists only for access to a no-op cache.
+// - Several static members on `SvgPicture` and the `svg` utility class have gone
+//   away.
